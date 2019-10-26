@@ -34,7 +34,10 @@ end
 long_planeteer_calls(short_words)
 long_planeteer_calls(assorted_words)
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(items)
   cheese_types = ["cheddar", "gouda", "camembert"]
+    items.each do |item|
+      if item.include?(cheese_types)
+          return item
+    end  
 end
