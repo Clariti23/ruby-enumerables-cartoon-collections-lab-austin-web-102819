@@ -19,6 +19,9 @@ def long_planeteer_calls# code an argument here
   # Your code here
 end
 
+short_words = ["puff", "go", "two"]
+
+
 def long_planeteer_calls(calls)
   calls.each do |call|
     if call.length > 4
